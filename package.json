@@ -1,0 +1,20 @@
+{
+  "name": "ghouse",
+  "version": "1.0.0",
+  "description": "Nodejs dependencies for ghouse",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-clean-css": "^2.0.6",
+    "gulp-concat": "^2.5.2",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.1.0",
+    "v8flags": "^2.0.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jack yin"
+}
