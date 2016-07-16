@@ -1,4 +1,6 @@
 body {
+	font-size: 13px;
+
 	background: url(img/background.jpg) left -450px no-repeat;
 	font-family: Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;
 
@@ -19,6 +21,20 @@ body {
 
 	#fullpage {
 		z-index:9999;
+
+		h1 {
+			@media (max-width:768px) {
+				font-size: 1.5rem;
+			}
+
+			@media (max-width:320px) {
+				font-size: 1rem;
+
+				.sub.header {
+					font-size:0.6rem;
+				}
+			}
+		}
 
 		.ui.header {
 			color: #FFFFFF;
